@@ -179,6 +179,80 @@ font-size: 18px;
 }
 
 
+/*section3 styles*/
+.section3-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   max-width: 1140px;
+   margin: 10px auto;
+}
+.section3-first-container{
+   width: 367px;
+   height: 423px;
+}
+ .pic-span{
+   text-align: center;
+  margin-top: 0px;
+  font-weight: 800;
+  font-size: 16;
+ }
+ .pic-span3{
+     text-align: center;
+  margin-top: 0px;
+  font-weight: 700;
+  font-size:28px ;
+ }
+ .pic{
+    color: white;
+ }
+.section3-first-container h2{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+.section3-list3 h2{
+     font-weight: 800;
+     font-size:40px;
+     color: white;
+   margin-bottom: 15px;
+     text-align: center;
+     margin-top: 150px;
+}
+
+.scection3-list1{
+    width: 367px;
+    height: 201px;
+    margin-top: 0p;
+    border: 1px solid greenyellow;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    background-image: url(./images/deal-bloom.png);
+}
+.section3-list2{
+    width:367px ;
+    height: 197px;
+   margin-top: 10px;
+   border: 1px solid greenyellow;
+   border-radius: 12px;
+   margin-bottom: 10px;
+    background-image: url(./images/deal-ana.png);
+}
+.section3-list3{
+    width: 753px;
+    height:423px ;
+    border: 1px solid skyblue;
+    border-radius: 22px;
+   margin-top: 0px;
+background-image: url(./images/deal-zabo.png);
+}
+ 
+
+
+
 
 
 
@@ -305,7 +379,54 @@ font-size: 18px;
     margin: 30px auto;
     font-size: 14px;
 }
-
+/*section3 responsive*/
+.section3-container{
+  
+   grid-template-columns: repeat(1, 1fr);
+   max-width: 100%;
+   margin: 10px auto;
+}
+.scection3-list1{
+    width:550px;
+    height: 201px;
+    margin: 10px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid greenyellow;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+.section3-list2{
+    width:550px ;
+    height: 201px;
+   margin-top: 10px;
+   border-radius: 0px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: 1px solid greenyellow;
+   margin: 10px auto;
+}
+.section3-list3{
+    width: 550px;
+    height:201px ;
+    border: 1px solid skyblue;
+    border-radius: 12px;
+    margin: 10px auto;
+}
+.section3-list3 h2{
+     font-weight: 700;
+     font-size:20px;
+     color: white;
+   margin-bottom: 15px;
+     text-align: center;
+     margin-top: 50px;
+}
+.pic-span3{
+     text-align: center;
+  margin-top: 0px;
+  font-weight: 800;
+  font-size:16px ;
+}
 
 
 
