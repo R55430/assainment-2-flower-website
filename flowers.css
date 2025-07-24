@@ -118,6 +118,67 @@ font-size: 18px;
 
 }
 
+/*seller badge styles*/
+.badge-sec2{
+   max-width: 269px ;
+    max-height:269px;
+    text-align: center;
+   margin-bottom: -140px;
+   margin-left: 130px;
+   
+}
+.img-container{
+    max-width: 1140px;
+    max-height: 200px;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+
+/*section2 styles*/
+.section2-img{
+   max-width: 540px;
+   max-height: 597px;
+}
+.section2-text{
+    max-width: 540px;
+    max-height: 521px;
+    margin-left: 50px;
+}
+.section2-text h3{
+     font-weight: bold;
+     font-size: 50px;
+}
+.section2-text ul li{
+           font-size: 22px;
+           margin-top: 20px;
+           margin-bottom: 20px;
+           margin-left: 30px;
+}
+.section2-main{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   max-width: 1140px;
+   margin: 20px auto;
+   justify-content: space-between;
+  
+}
+/*latest deals styles*/
+.latest-deal h2{
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.latest-deal{
+    max-width: 1140px;
+    max-height: 150px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+
 
 
 
@@ -210,7 +271,40 @@ font-size: 18px;
     max-width:171px ;
     max-height: 197px;
 }
+/*section2 responsive*/
+.img-container{
+    display: none;
+}
+.section2-main{
+  
+   grid-template-columns: repeat(1, 1fr);
+   width: 100%;
+   justify-content:center;
 
+}
+.section2-text ul li{
+           margin-left: 0px;
+}
+.hidden{
+    display: none;
+}
+.section2-img{
+    margin-top: 50px;
+}
+
+
+/*latest deals responsive*/
+.latest-deal h2{
+    font-weight: bold;
+    font-size: 24px;
+}
+.latest-deal{
+    max-width:100%;
+    max-height: 120px;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 14px;
+}
 
 
 
