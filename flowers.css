@@ -287,28 +287,41 @@ background-image: url(./images/deal-zabo.png);
     background: #E95A08;
     cursor: pointer;
 }
+/* footer section styles */
+.footer-container{
+    width: 1120px;
+    height: 248px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.footer-sec-1 img{
+    width: 115px;
+    height: 82px;
+}
+.footer-sec-2 ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footer-sec-2 ul li a{
+    text-decoration: none;
+}
+.footer-sec-3 ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footer-sec-3 ul li a{
+    text-decoration: none;
+}
+.footer-sec-4 ul li{
+    list-style: none;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.footer-icon {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /*@media styles*/
 /*small devices @media*/
@@ -496,6 +509,19 @@ background-image: url(./images/deal-zabo.png);
     
 }
 
+/* footer responsive */
+.footer-container{
+    width: 100%;
+    margin: 40px auto;
+    grid-template-columns: repeat(1, 1fr);
+}
+.footer-icon {
+    display: flex;
+   justify-content: flex-start;
+}
+.footer-icon li{
+    margin-right: 30px;
+}
 
 
 
