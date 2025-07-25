@@ -120,18 +120,20 @@ font-size: 18px;
 
 /*seller badge styles*/
 .badge-sec2{
+    margin-top: 50px;
    max-width: 269px ;
     max-height:269px;
     text-align: center;
    margin-bottom: -140px;
-   margin-left: 130px;
+  position: relative;
+  z-index: 10;
    
 }
 .img-container{
     max-width: 1140px;
     max-height: 200px;
     text-align: center;
-    margin: 0 auto;
+    margin:  auto;
    
 }
 
